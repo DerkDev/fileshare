@@ -35,7 +35,7 @@
 *cupsVersion:   1.2
 *cupsFilter:    "application/vnd.cups-raster 100 rastertogutenprint.5.3"
 *cupsFilter:    "application/vnd.cups-command 33 commandtoepson"
-*cupsLanguages: "ca cs da de el en_GB es fi fr gl hu it ja nb nl pl pt ru sk sl sv tr uk vi zh_CN zh_TW"
+*cupsLanguages: "en"
 
 *StpDriverName: "escp2-l1300"
 *StpDriverModelFamily:  "99_escp2"
@@ -47,7 +47,7 @@
 *OPOptionHints PageSize: "dropdown"
 *OrderDependency: 10 *PageSize AnySetup
 *StpStpPageSize: 0 1 2 0 255 0.000 0.000 0.000
-*DefaultPageSize: A4
+*DefaultPageSize: Letter
 *StpDefaultPageSize: Letter
 *PageSize Letter/Letter:        "<</PageSize[612.000 792.000]/ImagingBBox null>>setpagedevice"
 *CloseUI: *PageSize
@@ -55,16 +55,16 @@
 *OpenUI *PageRegion/Media Size: PickOne
 *OPOptionHints PageRegion: "dropdown"
 *OrderDependency: 10 AnySetup *PageRegion
-*DefaultPageRegion: A4
+*DefaultPageRegion: Letter
 *StpDefaultPageRegion: Letter
 *PageRegion Letter/Letter:      "<</PageSize[612.000 792.000]/ImagingBBox null>>setpagedevice"
 *CloseUI: *PageRegion
 
-*DefaultImageableArea: A4
+*DefaultImageableArea: Letter
 *StpDefaultImageableArea: Letter
 *ImageableArea Letter/Letter:   "0.000 0.000 612.000 792.000"
 
-*DefaultPaperDimension: A4
+*DefaultPaperDimension: Letter
 *StpDefaultPaperDimension: Letter
 *PaperDimension Letter/Letter:  "612.000 792.000"
 
