@@ -50,12 +50,15 @@
 *DefaultPageSize: A4
 *StpDefaultPageSize: Letter
 *PageSize Letter/Letter:        "<</PageSize[612.000 792.000]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+
 *OpenUI *PageRegion/Media Size: PickOne
 *OPOptionHints PageRegion: "dropdown"
 *OrderDependency: 10 AnySetup *PageRegion
 *DefaultPageRegion: A4
 *StpDefaultPageRegion: Letter
 *PageRegion Letter/Letter:      "<</PageSize[612.000 792.000]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
 
 *DefaultImageableArea: A4
 *StpDefaultImageableArea: Letter
