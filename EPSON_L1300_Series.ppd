@@ -49,7 +49,7 @@
 *StpStpPageSize: 0 1 2 0 255 0.000 0.000 0.000
 *DefaultPageSize: Letter
 *StpDefaultPageSize: Letter
-*PageSize Letter/Letter:        "<</PageSize[612.000 792.000]/ImagingBBox null>>setpagedevice"
+*PageSize Letter.FullBleed/Letter:        "<</PageSize[612.000 792.000]/ImagingBBox null>>setpagedevice"
 *CloseUI: *PageSize
 
 *OpenUI *PageRegion/Media Size: PickOne
@@ -57,16 +57,16 @@
 *OrderDependency: 10 AnySetup *PageRegion
 *DefaultPageRegion: Letter
 *StpDefaultPageRegion: Letter
-*PageRegion Letter/Letter:      "<</PageSize[612.000 792.000]/ImagingBBox null>>setpagedevice"
+*PageRegion Letter.FullBleed/Letter:      "<</PageSize[612.000 792.000]/ImagingBBox null>>setpagedevice"
 *CloseUI: *PageRegion
 
 *DefaultImageableArea: Letter
 *StpDefaultImageableArea: Letter
-*ImageableArea Letter/Letter:   "0.000 0.000 612.000 792.000"
+*ImageableArea Letter.FullBleed/Letter:   "0.000 0.000 612.000 792.000"
 
 *DefaultPaperDimension: Letter
 *StpDefaultPaperDimension: Letter
-*PaperDimension Letter/Letter:  "612.000 792.000"
+*PaperDimension Letter.FullBleed/Letter:  "612.000 792.000"
 
 
 *% End of stp-escp2-l1300.5.3.ppd
