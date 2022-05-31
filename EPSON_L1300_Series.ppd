@@ -30,20 +30,14 @@
 *cupsVersion: 1.3
 *cupsManualCopies: True
 *cupsModelNumber: 1
-*cupsFilter: "application/vnd.cups-raster 0 /Library/Printers/EPSON/InkjetPrinter2/Filter/rastertoescpII.app/Contents/MacOS/rastertoescpII"
 
 *APSupportsCustomColorMatching: True
 
-*APAutoSetupTool: "/Library/Printers/EPSON/InkjetPrinter2/AutoSetupTool/EPIJAutoSetupTool2.app/Contents/MacOS/EPIJAutoSetupTool2"
-*cupsPreFilter: "application/pdf 33 /Library/Printers/EPSON/InkjetPrinter2/Filter/pdftopdf2.app/Contents/MacOS/pdftopdf2"
 
 *EPIJESCPLibName: "ESCPLib.framework"
 
-*APDialogExtension: "/Library/Printers/EPSON/InkjetPrinter2/PDE/PDECPlugin01.plugin"
-*APPrinterIconPath: "/Library/Printers/EPSON/InkjetPrinter2/PrinterIcon/Printer_C211.pib/Contents/Resources/Printer_C211.icns"
 
 *EPIJMarket: "W"
-*EPIJDriverBasePath: "/Library/Printers/EPSON/InkjetPrinter2"
 *EPIJLUTModuleName: "EP1304PR1.lut"
 *EPIJMWModuleName: "EP0904CH1.mwr"
 *EPIJCommandModuleName: "EP1304AA1.cmd"
@@ -52,9 +46,7 @@
 *EPIJAPFVersion: "10"
 *EPIJAPFFrameworkName: "ECX.framework"
 
-*cupsFilter: "application/vnd.cups-command 0 /Library/Printers/EPSON/InkjetPrinter2/Filter/commandtoescp.app/Contents/MacOS/commandtoescp"
 *cupsCommands: "Clean PrintSelfTestPage"
-*APPrinterUtilityPath: "/Library/Printers/EPSON/InkjetPrinter2/Utility/UT4/Epson Printer Utility 4.app"
 *EPIJPrinterUtilityBundleName: "UTL1300 Series_W.bundle"
 
 *cupsMarkerName Black/Black: ""
@@ -500,9 +492,6 @@
 *tr.cupsMarkerName PrintPack/Print Pack: ""
 
 *% Profile ===================
-*cupsICCProfile ..1/Epson IJ Printer 07: "/Library/Printers/EPSON/InkjetPrinter2/ICCProfiles/Standard_07.profiles/Contents/Resources/Epson IJ Printer 07.icc"
-*cupsICCProfile ..0/sRGB Profile: "/System/Library/ColorSync/Profiles/sRGB Profile.icc"
-
 *cupsICCQualifier3: EPIJProfileSpec
 
 *% iPhoto Preset 1===================
